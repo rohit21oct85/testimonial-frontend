@@ -4,6 +4,7 @@ import axios from 'axios';
 
 export default function useTestimonials(status) {
     let API_URL = 'http://localhost:8080/api/';
+    const [intervalMs, setIntervalMs] = useState(3600)
     return useQuery('testimonials', async () => {
       const result = await axios.get(`${API_URL}testimonial/view-all/testimonials/${status}`,{
             headers: {
