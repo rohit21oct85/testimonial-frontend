@@ -9,29 +9,29 @@ export default function Footer() {
             <div className="col-lg-12">
               <div className="footer-logo-support d-md-flex align-items-end justify-content-between">
                 <div className="footer-logo d-flex align-items-end">
-                  <button className="mt-30" href="index.html">
+                  <a className="mt-30" href="index.html">
                     <img src="/assets/images/logo.svg" alt="Logo" />
-                  </button>
+                  </a>
                   <ul className="social mt-30">
                     <li>
-                      <button href="#">
+                      <a href="/">
                         <i className="lni-facebook-filled"></i>
-                      </button>
+                      </a>
                     </li>
                     <li>
-                      <button href="#">
+                      <a href="/">
                         <i className="lni-twitter-original"></i>
-                      </button>
+                      </a>
                     </li>
                     <li>
-                      <button href="#">
+                      <a href="/">
                         <i className="lni-instagram-original"></i>
-                      </button>
+                      </a>
                     </li>
                     <li>
-                      <button href="#">
+                      <a href="/">
                         <i className="lni-linkedin-original"></i>
-                      </button>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -44,13 +44,13 @@ export default function Footer() {
                 <h6 className="footer-title">Company</h6>
                 <ul>
                   <li>
-                    <button href="#">About</button>
+                    <a href="/">About</a>
                   </li>
                   <li>
-                    <button href="#">Contact</button>
+                    <a href="/">Contact</a>
                   </li>
                   <li>
-                    <button href="#">Career</button>
+                    <a href="/">Career</a>
                   </li>
                 </ul>
               </div>
@@ -60,13 +60,13 @@ export default function Footer() {
                 <h6 className="footer-title">Product & Services</h6>
                 <ul>
                   <li>
-                    <button href="#">Products</button>
+                    <a href="/">Products</a>
                   </li>
                   <li>
-                    <button href="#">Business</button>
+                    <a href="/">Business</a>
                   </li>
                   <li>
-                    <button href="#">Developer</button>
+                    <a href="/">Developer</a>
                   </li>
                 </ul>
               </div>
@@ -76,13 +76,13 @@ export default function Footer() {
                 <h6 className="footer-title">Help & Suuport</h6>
                 <ul>
                   <li>
-                    <button href="#">Support Center</button>
+                    <a href="/">Support Center</a>
                   </li>
                   <li>
-                    <button href="#">FAQ</button>
+                    <a href="/">FAQ</a>
                   </li>
                   <li>
-                    <button href="#">Terms & Conditions</button>
+                    <a href="/">Terms & Conditions</a>
                   </li>
                 </ul>
               </div>
@@ -93,9 +93,9 @@ export default function Footer() {
                 <div className="newsletter">
                   <form action="#">
                     <input type="text" placeholder="Your Email" />
-                    <button type="submit">
+                    <a type="submit">
                       <i className="lni-angle-double-right"></i>
-                    </button>
+                    </a>
                   </form>
                 </div>
                 <p className="text">
@@ -114,20 +114,20 @@ export default function Footer() {
               <div className="copyright text-center">
                 <p className="text">
                   Template Crafted by{" "}
-                  <button rel="nofollow" href="/">
+                  <a rel="nofollow" href="/">
                     UIdeck
-                  </button>{" "}
+                  </a>{" "}
                   - UI Powered by{" "}
-                  <button el="nofollow" href="/">
+                  <a el="nofollow" href="/">
                     AyroUI
-                  </button>
+                  </a>
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <button className="back-to-top" href="#"><i className="lni-chevron-up"></i></button>
+      <a className="back-to-top" href="/"><i className="lni-chevron-up"></i></a>
     </footer>
   );
 }
