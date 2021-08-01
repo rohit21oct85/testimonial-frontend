@@ -1,5 +1,5 @@
 import React from "react";
-import useTestimonials from "./useTestimonials";
+import useTestimonials from "./hooks/useTestimonials";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -61,7 +61,7 @@ export default function Testimonial() {
             <Slider {...settings}>  
             {testimonials?.map((testimonial) => {
                 return (
-                  <div className="col-md-12">
+                  <div className="col-md-12" key={testimonial?._id}>
                     <div className="single-testimonial mt-30 mb-30 text-center">
                       <div className="testimonial-image">
                         <img src={testimonial.photo} alt="Author" />

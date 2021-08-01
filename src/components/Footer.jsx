@@ -9,29 +9,29 @@ export default function Footer() {
             <div className="col-lg-12">
               <div className="footer-logo-support d-md-flex align-items-end justify-content-between">
                 <div className="footer-logo d-flex align-items-end">
-                  <a className="mt-30" href="index.html">
+                  <button className="mt-30" href="index.html">
                     <img src="/assets/images/logo.svg" alt="Logo" />
-                  </a>
+                  </button>
                   <ul className="social mt-30">
                     <li>
-                      <a href="#">
+                      <button href="#">
                         <i className="lni-facebook-filled"></i>
-                      </a>
+                      </button>
                     </li>
                     <li>
-                      <a href="#">
+                      <button href="#">
                         <i className="lni-twitter-original"></i>
-                      </a>
+                      </button>
                     </li>
                     <li>
-                      <a href="#">
+                      <button href="#">
                         <i className="lni-instagram-original"></i>
-                      </a>
+                      </button>
                     </li>
                     <li>
-                      <a href="#">
+                      <button href="#">
                         <i className="lni-linkedin-original"></i>
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -44,13 +44,13 @@ export default function Footer() {
                 <h6 className="footer-title">Company</h6>
                 <ul>
                   <li>
-                    <a href="#">About</a>
+                    <button href="#">About</button>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <button href="#">Contact</button>
                   </li>
                   <li>
-                    <a href="#">Career</a>
+                    <button href="#">Career</button>
                   </li>
                 </ul>
               </div>
@@ -60,13 +60,13 @@ export default function Footer() {
                 <h6 className="footer-title">Product & Services</h6>
                 <ul>
                   <li>
-                    <a href="#">Products</a>
+                    <button href="#">Products</button>
                   </li>
                   <li>
-                    <a href="#">Business</a>
+                    <button href="#">Business</button>
                   </li>
                   <li>
-                    <a href="#">Developer</a>
+                    <button href="#">Developer</button>
                   </li>
                 </ul>
               </div>
@@ -76,13 +76,13 @@ export default function Footer() {
                 <h6 className="footer-title">Help & Suuport</h6>
                 <ul>
                   <li>
-                    <a href="#">Support Center</a>
+                    <button href="#">Support Center</button>
                   </li>
                   <li>
-                    <a href="#">FAQ</a>
+                    <button href="#">FAQ</button>
                   </li>
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <button href="#">Terms & Conditions</button>
                   </li>
                 </ul>
               </div>
@@ -114,20 +114,20 @@ export default function Footer() {
               <div className="copyright text-center">
                 <p className="text">
                   Template Crafted by{" "}
-                  <a rel="nofollow" href="/">
+                  <button rel="nofollow" href="/">
                     UIdeck
-                  </a>{" "}
+                  </button>{" "}
                   - UI Powered by{" "}
-                  <a el="nofollow" href="/">
+                  <button el="nofollow" href="/">
                     AyroUI
-                  </a>
+                  </button>
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a className="back-to-top" href="#"><i className="lni-chevron-up"></i></a>
+      <button className="back-to-top" href="#"><i className="lni-chevron-up"></i></button>
     </footer>
   );
 }

@@ -20,7 +20,6 @@ export default function GetInTouch() {
             <div className="contact-form">
               <form
                 id="contact-form"
-                action="assets/contact.php"
                 method="post"
                 data-toggle="validator"
               >
@@ -87,7 +86,7 @@ export default function GetInTouch() {
                   <p className="form-message"></p>
                   <div className="col-md-12">
                     <div className="single-form form-group text-center">
-                      <button type="submit" className="main-btn">
+                      <button type="button" className="main-btn">
                         send message
                       </button>
                     </div>
